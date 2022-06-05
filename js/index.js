@@ -1,5 +1,5 @@
 (function() {
-    var target_date = new Date("May 15, 2022").getTime();
+    var target_date = new Date("July 01, 2022").getTime();
 
     var days, hours, minutes, seconds, countdown = document.getElementById("countdown");
 
