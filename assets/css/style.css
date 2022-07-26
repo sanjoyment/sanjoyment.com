@@ -454,7 +454,7 @@ section {
   align-items: stretch;
 }
 .resume .technology .tech-item {
-  min-width: 75px;
+  width: 75px;
   margin-right: 10px;
   margin-bottom: 15px;
   text-align: center;
@@ -470,6 +470,9 @@ section {
   font-weight: bold;
   margin: 5px 0 0;
   color: #111;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .resume .technology .tech-item h4 {
   margin: 0;
