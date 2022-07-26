@@ -447,6 +447,36 @@ section {
   background: #fff;
   border: 2px solid #1f5297;
 }
+.resume .technology {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.resume .technology .tech-item {
+  width: 15%;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.resume .technology .tech-item img {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+.resume .technology .tech-item h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 5px 0 0;
+  color: #111;
+}
+.resume .technology .tech-item h4 {
+  margin: 0;
+  color: #999;
+  font-size: 12px;
+  text-transform: unset;
+}
 
 /*--------------------------------------------------------------
 # Portfolio
