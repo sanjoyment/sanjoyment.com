@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 4px solid #2c2f3f;
 }
 #header .profile h1 {
   font-size: 24px;
@@ -81,9 +81,24 @@ h1, h2, h3, h4, h5, h6 {
   text-align-last: center;
   font-family: "Poppins", sans-serif;
 }
+#header .profile .designation {
+  font-size: 15px;
+  padding: 0;
+  font-weight: 400;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-family: "Poppins", sans-serif;
+  margin: 4px 0 0;
+  display: block;
+  color: #ffffff94;
+  text-decoration: none;
+}
 #header .profile h1 a, #header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
+}
+#header .profile h1 a .last-name {
+  font-weight: 300;
 }
 #header .profile .social-links a {
   font-size: 18px;
@@ -219,6 +234,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
+}
+#hero h1 .last-name {
+  font-weight: 300;
 }
 #hero p {
   color: #fff;
@@ -410,14 +428,18 @@ section {
   border-left: 2px solid #1f5297;
   position: relative;
 }
+.resume .resume-item p {
+  margin-bottom: 8px;
+}
 .resume .resume-item h4 {
+  display: flex;
+  gap: 5px;
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #050d18;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 .resume .resume-item h5 {
   font-size: 16px;
